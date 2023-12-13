@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         //В некотрых заданиях не указано точно <= или </>= или >, там я делал на своё усмотрение
         Scanner newObject = new Scanner(System.in);
+
         //exercise 1
         System.out.println("Введите ваш возраст: ");
         int age = newObject.nextInt();
@@ -13,6 +14,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
         else
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
+
         //exercise 2
         System.out.println("Введите температуру: ");
         int temperature = newObject.nextInt();
@@ -21,6 +23,7 @@ public class Main {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки.");
         else
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку.");
+
         //exercise 3
         System.out.println("Введите скорость: ");
         int speed = newObject.nextInt();
@@ -29,6 +32,7 @@ public class Main {
             System.out.println("Если скорость " + speed + ", то придётся заплатить штраф.");
         else
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно.");
+
         //exercise 4
         System.out.println("Введите возраст человека: ");
         int secondAge = newObject.nextInt();
@@ -43,6 +47,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + secondAge + ", то ему нужно ходить на работу");
         else
             System.out.println("Если возраст человека равен " + secondAge + ", то ему нужно научиться ходить :D");
+
         //exercise 5
         System.out.println("Введите возраст ребёнка: ");
         int thirdAge = newObject.nextInt();
@@ -53,6 +58,7 @@ public class Main {
             System.out.println("Если возраст ребёнка равен " + thirdAge + ", то ему можно кататься на аттракционе только в сопровождении взрослого");
         else
             System.out.println("Если возраст ребёнка равен " + thirdAge + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+
         //exercise 6
         System.out.println("Введите сколько сидячих мест занято: ");
         int quantitySeatPlace = newObject.nextInt();
@@ -67,6 +73,7 @@ public class Main {
             System.out.println("В вагоне есть свободные стоячие места");
         else
             System.out.println("В вагоне нет свободных мест");
+
         //exercise 7
         System.out.println("Введите по очереди три чесла через пробел: ");
         int one = newObject.nextInt(), two = newObject.nextInt(), three = newObject.nextInt();
